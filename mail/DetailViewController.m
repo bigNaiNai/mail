@@ -25,12 +25,20 @@
     }
 }
 
-- (void)configureView {
-    // Update the user interface for the detail item.
+-(void)configureView{
     if (self.detailItem) {
-        self.detailDescriptionLabel.text = [self.detailItem description];
+        NSDictionary *dict = (NSDictionary *)self.detailItem;
+        NSString *urlString = dict[@"url"];
+        self.detailDescriptionLabel.text = urlString;
+        NSURL *url = [NSURL URLWithString:urlString];
+        NSURLRequest *request = [NSURLRequest requestWithURL:url];
+        [self.webView loadRequest:request];
+        NSString *name = dict[@"name"];
+        self.title = name;
     }
 }
+
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
