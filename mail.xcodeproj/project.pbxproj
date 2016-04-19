@@ -14,6 +14,7 @@
 		8E1EB2961CC3D76F00D4C726 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E1EB2941CC3D76F00D4C726 /* Main.storyboard */; };
 		8E1EB2981CC3D76F00D4C726 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E1EB2971CC3D76F00D4C726 /* Assets.xcassets */; };
 		8E1EB29B1CC3D76F00D4C726 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E1EB2991CC3D76F00D4C726 /* LaunchScreen.storyboard */; };
+		8EB091161CC612F90048570D /* PresidentList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EB091151CC612F90048570D /* PresidentList.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		8E1EB2971CC3D76F00D4C726 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E1EB29A1CC3D76F00D4C726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E1EB29C1CC3D76F00D4C726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EB091151CC612F90048570D /* PresidentList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PresidentList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				8E1EB2941CC3D76F00D4C726 /* Main.storyboard */,
 				8E1EB2971CC3D76F00D4C726 /* Assets.xcassets */,
 				8E1EB2991CC3D76F00D4C726 /* LaunchScreen.storyboard */,
+				8EB091151CC612F90048570D /* PresidentList.plist */,
 				8E1EB29C1CC3D76F00D4C726 /* Info.plist */,
 				8E1EB2881CC3D76F00D4C726 /* Supporting Files */,
 			);
@@ -144,6 +147,7 @@
 				8E1EB29B1CC3D76F00D4C726 /* LaunchScreen.storyboard in Resources */,
 				8E1EB2981CC3D76F00D4C726 /* Assets.xcassets in Resources */,
 				8E1EB2961CC3D76F00D4C726 /* Main.storyboard in Resources */,
+				8EB091161CC612F90048570D /* PresidentList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +310,7 @@
 				8E1EB2A11CC3D76F00D4C726 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
