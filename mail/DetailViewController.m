@@ -5,11 +5,28 @@
 //  Created by junior－G on 16/4/17.
 //  Copyright © 2016年 gong. All rights reserved.
 //
-
 #import "DetailViewController.h"
+#import "LanguageListController.h"
+
+static NSString *modifyUrlForLanguage(NSString *url, NSString *lang){
+    if (!lang) {
+        return url;
+    }
+    NSRange codeRange = NSMakeRange(7, 2);
+    if ([[url substringWithRange:codeRange] isEqualToString:lang]) {
+        return url;
+    }else{
+        NSString *newUrl = [url stringByReplacingCharactersInRange:codeRange withString:lang];
+        return newUrl;
+    }
+
+}
+
 
 @interface DetailViewController ()
-
+<
+UIPopoverControllerDelegate
+>
 @end
 
 @implementation DetailViewController
@@ -25,10 +42,15 @@
     }
 }
 
+
+
+
+
 -(void)configureView{
     if (self.detailItem) {
         NSDictionary *dict = (NSDictionary *)self.detailItem;
-        NSString *urlString = dict[@"url"];
+        NSString *urlString = modifyUrlForLanguage(dict[@"url"], self.languageString);
+
         self.detailDescriptionLabel.text = urlString;
         NSURL *url = [NSURL URLWithString:urlString];
         NSURLRequest *request = [NSURLRequest requestWithURL:url];
@@ -42,7 +64,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+
+
+
     [self configureView];
 }
 
@@ -52,3 +77,32 @@
 }
 
 @end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

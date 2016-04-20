@@ -15,6 +15,7 @@
 		8E1EB2981CC3D76F00D4C726 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E1EB2971CC3D76F00D4C726 /* Assets.xcassets */; };
 		8E1EB29B1CC3D76F00D4C726 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E1EB2991CC3D76F00D4C726 /* LaunchScreen.storyboard */; };
 		8EB091161CC612F90048570D /* PresidentList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EB091151CC612F90048570D /* PresidentList.plist */; };
+		8EB091191CC759890048570D /* LanguageListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB091181CC759890048570D /* LanguageListController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		8E1EB29A1CC3D76F00D4C726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E1EB29C1CC3D76F00D4C726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EB091151CC612F90048570D /* PresidentList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PresidentList.plist; sourceTree = "<group>"; };
+		8EB091171CC759890048570D /* LanguageListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanguageListController.h; sourceTree = "<group>"; };
+		8EB091181CC759890048570D /* LanguageListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanguageListController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 				8EB091151CC612F90048570D /* PresidentList.plist */,
 				8E1EB29C1CC3D76F00D4C726 /* Info.plist */,
 				8E1EB2881CC3D76F00D4C726 /* Supporting Files */,
+				8EB091171CC759890048570D /* LanguageListController.h */,
+				8EB091181CC759890048570D /* LanguageListController.m */,
 			);
 			path = mail;
 			sourceTree = "<group>";
@@ -161,6 +166,7 @@
 				8E1EB28D1CC3D76F00D4C726 /* AppDelegate.m in Sources */,
 				8E1EB2901CC3D76F00D4C726 /* MasterViewController.m in Sources */,
 				8E1EB28A1CC3D76F00D4C726 /* main.m in Sources */,
+				8EB091191CC759890048570D /* LanguageListController.m in Sources */,
 				8E1EB2931CC3D76F00D4C726 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
